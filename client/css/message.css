@@ -1,0 +1,128 @@
+.iconAndUser {
+    display: flex;
+    width: calc(100vw - 30px);
+    top: 80px;
+    padding: 0px 0px 0px 30px;
+    margin-bottom: 10px;
+}
+
+#menuBurger {
+    margin-right: 30px;
+}
+
+.footerMessage {
+    display: flex;
+}
+
+.containerMessage {
+    overflow: hidden;
+    width: 100vw;
+    height: calc(100vh - 269px);
+}
+
+.slider  {
+    overflow-y: scroll;
+    height: 100%;
+    width: 100%;
+}
+
+.slider::-webkit-scrollbar {
+    width: 0.5em;
+}
+  
+.slider::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+  
+.slider::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.sendMessage {
+    bottom: 0%;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 30px;
+    width: 76%;
+}
+
+.userMessage {
+    margin: 0px 0px 30px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.unMessage  {
+    display: flex;
+    align-items: flex-start;
+    margin: 0px 30px 0px 30px;
+}
+
+.friendMessage {
+    margin: 15px;
+}
+
+.inputMessage {
+    /* position: fixed; */
+    background-color: #3D3D3D;
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.friendsSlider {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    overflow-y: hidden;
+    top: 0px;
+    background-color: #3D3D3D;
+}
+
+.friendsSliderOff {
+    display: none;
+}
+
+.sliderFriendsContent {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+.retourSlider {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.allFriends {
+    overflow-y: scroll;
+    height: 100%;
+    width: 100%;
+}
+
+.friendList {
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    text-align: left;
+    height: 80px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.headerGroup {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    width: 100%;
+}

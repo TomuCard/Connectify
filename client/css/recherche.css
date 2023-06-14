@@ -1,0 +1,64 @@
+.searchBarre {
+  width: 73vw;
+  display: block;
+  padding: 15px;
+  margin: auto;
+  margin-top: 25px;
+  background-color: #fff;
+}
+
+input[type="radio"].demo1 {
+  display: none;
+}
+
+input[type="radio"].demo1 + label {
+  padding: 0.3rem 0.5rem;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+}
+
+input[type="radio"].demo1:checked + label {
+  background-color: var(--primary-color);
+}
+
+.radioSearch {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.buttonSearch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  gap: 15px;
+}
+
+.contentUsers{
+  overflow-y: scroll;
+  height: 500px;
+}
+
+.contentUsersOff {
+  display: none;
+}
+
+.contentPublications{
+  display: flex;
+  overflow-y: scroll;
+  height: 500px;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.sendSearch {
+  padding: 10px 20px;
+  border-radius: 10px ;
+  border: none;
+  width: 73vw;
+  margin-top: 15px;
+}

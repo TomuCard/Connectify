@@ -1,0 +1,104 @@
+.headerPublication {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 30px 0px 30px;
+
+}
+
+.iconPublication {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.demandeInvitation {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center     ;
+}
+
+
+.profileButtonInvitation {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+#buttonInvitationDroit {
+    transform: rotate(180deg);
+}
+
+.profileInvitation {
+    display: flex;
+    flex-direction: row;
+}
+
+.nomPromo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.imageProfile {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.invitationText {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.invitationButton {
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+}
+
+.containerInvitationButton {
+    display: flex;
+    margin-top: 15px;
+    gap: 20px;
+}
+
+.buttonPublication{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    text-align: left;
+}
+
+.containerPublication{
+    display: flex; 
+    width: calc(100% - 30px);
+    margin: 30px;
+}
+
+.imagePublication{
+    width: calc(100% - 60px);
+    border-radius: 10px;
+
+}
+
+.containerProfile{
+    display: flex;
+}
+
+.profile{
+    margin-left: 25px;
+}
+
+.titrePublication{
+    margin: 15px 0px;
+}
+
+.red:hover{
+    background-color:#CB0000;
+}
+
+.green:hover{
+    background-color: #3E7A0C;
+}

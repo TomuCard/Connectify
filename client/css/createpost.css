@@ -1,0 +1,134 @@
+.iconRetour{
+    margin: 30px;
+    size: 19px;
+}
+
+a:link 
+{ 
+ text-decoration:none; 
+} 
+
+.buttonRetour{
+    border: none;
+    background-color: #3D3D3D;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+    height: 39px;
+    width: 26px;
+    font-size: 19px;
+}
+
+.buttonPublier1{
+    border: none;
+    background-color: #3D3D3D;
+    color: #5FB814;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    height: 39px;
+    font-size: 19px;
+}
+
+.profileCreatPost{
+    position: absolute;
+    width: 181px;
+    height: 50px;
+    left: 30px;
+    top: 134px;
+}
+
+.imageProfileCreatPost{
+    position: absolute;
+    left: 0%;
+    right: 72.38%;
+    top: 0%;
+    bottom: 0%;
+    width: 50px; 
+}
+
+.nomPromoCreatPost{
+    position: absolute;
+    left: 40.33%;
+    right: 0%;
+    top: 4%;
+    bottom: 48%;
+
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+
+    color: #FFFFFF;
+}
+
+.ajouterUnTitre{
+    position: absolute;
+    width: 95%;
+    height: 46px;
+    left: 30px;
+    top: 230px;
+}
+
+.inputPost{
+    background-color: #686868;
+
+}
+
+.inputPost::placeholder{
+    color: white;
+}
+
+.inputDescritpion{
+    position: absolute;
+    width: 330px;
+    height: 250px;
+    left: 30px;
+    top: 300px;
+    background-color: #686868;
+    border-radius: 10px;
+    border: none;
+}
+
+.inputDescritpion::placeholder{
+    color: white;
+}
+
+.inputDescritpion{
+    padding-top: 5px;
+    padding-left: 13px;
+    align-items: center;
+    font-family: 'Kanit';
+}
+
+
+.buttonPhotos {
+    border: none;
+    background-color: #3D3D3D;
+    color: #FFFFFF;
+    text-align: center;
+    position: absolute;
+    height: 30px;
+    left: 30px;
+    top: 580px;
+    font-size: 17px;
+}
+
+.buttonPublier2 {
+    border: none;
+    position: absolute;
+    width: 330px;
+    height: 40px;
+    left: 30px;
+    top: 650px;
+
+    background: #3E7A0C;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: 'Kanit';
+}

@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    background-color: #3D3D3D;
+    font-family: 'Kanit', sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+    
+}
+
+:root{
+    --primary-color : #5FB814;
+    --fontSize-title-h1 : 20px;
+    --fontSize-title-h2 : 17px;
+    --fontSize-texte : 14px;
+    --padding : 15px;
+    --margin : 15px;
+}
+
+.flex-content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 15px 30px 15px 30px;
+    
+}
+
+.iconMessage {
+    margin-left: 15px;
+    
+}
+
+.main-title {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.textWhite {
+    color: #fff;
+}
+
+.textGray {
+    color: #AEAEAE;
+}
+
+.green {
+    background-color: var(--primary-color);
+}
+
+.red {
+    background-color: #FF0000;
+}
+
+.iconsButton {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    border: 0;
+    width: 30px;
+    height: auto;
+}
